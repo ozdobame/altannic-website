@@ -1,8 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect width="64" height="64" rx="14" fill="#0d0f14"/>
-  <path d="M18 52 L32 18 L46 52" stroke="#2979ff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M24 40 L32 26 L40 40" stroke="#2979ff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
-  <circle cx="32" cy="44" r="4" fill="#2979ff"/>
-  <circle cx="28" cy="46" r="2" fill="#e040fb" opacity="0.7"/>
-  <circle cx="36" cy="45" r="1.5" fill="#e040fb" opacity="0.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#fbf4e6"/>
+  <polygon points="10,38 2,49 15,42" fill="#1f2a8c"/>
+  <polygon points="10,38 31,21 40,34" fill="#1f2a8c"/>
+  <polygon points="10,38 40,34 33,50" fill="#3046d9"/>
+  <polygon points="21,31 46,25 36,41" fill="#4f6cf5"/>
+  <polygon points="38,31 44,15 54,23 48,33" fill="#2a39b8"/>
+  <polygon points="54,23 63,26 52,29" fill="#ffd84d"/>
+  <circle cx="47.5" cy="22.5" r="2.1" fill="#8b5cf6"/>
+  <path d="M27 48 L26 57 M33 48 L34 57" stroke="#8c6a48" stroke-width="2" stroke-linecap="round"/>
 </svg>
