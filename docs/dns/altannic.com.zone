@@ -1,0 +1,6 @@
+$ORIGIN altannic.com.
+$TTL 3600
+; Records to ADD for AWS Amplify (import via GoDaddy DNS > Import Zone File)
+; altannic.com currently has NO www record, so nothing conflicts.
+_c5420348032bc8d25e63f3c38d123e18  3600  IN  CNAME  _e7f9021b5cfbcb535ae91c484f416f1e.wzccmgtwzk.acm-validations.aws.
+www                                3600  IN  CNAME  d2fc5g627mc6po.cloudfront.net.

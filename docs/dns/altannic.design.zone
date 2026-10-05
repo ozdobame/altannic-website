@@ -1,0 +1,7 @@
+$ORIGIN altannic.design.
+$TTL 3600
+; Records to ADD for AWS Amplify (import via GoDaddy DNS > Import Zone File)
+; IMPORTANT: delete the existing "www CNAME altannic.design." record BEFORE importing,
+; a name can only have one CNAME.
+_a56173bd976487d0bbe37e8f83320f16  3600  IN  CNAME  _36d87dfbee7b2440af1be09f9e3477b6.wzccmgtwzk.acm-validations.aws.
+www                                3600  IN  CNAME  d3vpmcyoyejfsb.cloudfront.net.
