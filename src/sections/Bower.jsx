@@ -174,6 +174,19 @@ export default function Bower() {
               Shake it up
             </PaperButton>
           </div>
+
+          <figure className="relative mt-12 hidden w-60 -rotate-3 rounded-md bg-white p-2 pb-3 shadow-[0_20px_30px_-18px_rgba(30,27,75,0.5)] sm:block">
+            <img
+              src="/images/bower.webp"
+              alt="Origami bower: two curved walls of folded kraft-paper twigs with blue paper caps, feathers, violet flowers and teal straws arranged in front"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              className="aspect-square w-full rounded-sm object-cover"
+            />
+            <figcaption className="mt-2 text-center font-hand text-xl text-ink/70">the original. (well, paper.)</figcaption>
+            <span aria-hidden="true" className="tape -top-3 left-1/2 -translate-x-1/2 rotate-2" style={{ '--tape': '#ff8fc4' }} />
+          </figure>
         </div>
 
         <div className="relative">

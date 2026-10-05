@@ -1,16 +1,36 @@
-# React + Vite
+# altannic — UI/UX design studio website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> *altannik* (pl.) — the bowerbird. We build interfaces the way bowerbirds build bowers.
 
-Currently, two official plugins are available:
+An origami-and-handwriting themed single-page site: paper elements that unfold on scroll and
+hover, a scroll-driven accordion-fold process strip, an "arrange the bower" drag-and-drop toy,
+and an envelope contact form that opens as you arrive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live:** https://www.altannic.design · https://www.altannic.com (see [docs/DOMAINS.md](docs/DOMAINS.md))
 
-## React Compiler
+## Stack
+- React 19 + Vite, Tailwind CSS v4, Framer Motion, Lucide icons
+- Fonts: Fraunces (display), Caveat (handwriting), DM Sans (body)
+- Origami illustrations in `public/images/` were AI-generated for this project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Develop
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # → dist/
+```
 
-## Expanding the Oxlint configuration
+## Deploy
+Hosted on **AWS Amplify Hosting** (`eu-west-2`, app `d11cxvj966thdw`), connected to this repo.
+Every push to `master` builds and deploys automatically.
+- `amplify.yml`: build spec (Node 22)
+- `customHttp.yml`: security and cache headers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Structure
+```
+src/
+  components/  Fold.jsx (FoldIn, Accordion, FoldCard, FoldWords) · Origami.jsx · Hand.jsx · UI.jsx
+  sections/    Nav, Hero, Ribbon, Story, Services, Process, Bower, Work, Notes, Contact, Footer
+```
+
+Project names, stats and testimonials are placeholder demo content.
